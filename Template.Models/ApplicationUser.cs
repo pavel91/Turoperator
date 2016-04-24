@@ -12,14 +12,17 @@ namespace Template.Models
     public class ApplicationUser : IdentityUser
     {
         private ICollection<ApplicationUser> friends;
+        //do we need it
         private ICollection<Package> packages;
         private ICollection<Comment> comments;
+        //private ICollection<Destination> destinations;
 
         public ApplicationUser()
         {
             this.friends = new List<ApplicationUser>();
             this.packages = new List<Package>();
             this.comments = new List<Comment>();
+            //this.destinations = new List<Destination>();
         }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
@@ -49,5 +52,11 @@ namespace Template.Models
             get { return this.comments; }
             set { this.comments = value; }
         }
+
+        //public virtual ICollection<Destination> Destinations
+        //{
+        //    get { return this.destinations; }
+        //    set { this.destinations = value; }
+        //}
     }
 }

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Template.Models;
 using System.Data.Entity;
 using Template.Data.Migrations;
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace Template.Data
 {
@@ -21,6 +22,34 @@ namespace Template.Data
         public static TemplateDbContext Create()
         {
             return new TemplateDbContext();
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Package>()
+                .HasMany(p => p.Participants)
+                .WithMany(u => u.Packages)
+                .Map(m =>
+                {
+                    m.ToTable("PackageUsers");
+                    m.MapLeftKey("PackageId");
+                    m.MapRightKey("ParticipantId");
+                });
+
+            modelBuilder.Entity<ApplicationUser>()
+                .HasMany(au => au.Friends)
+                .WithMany()
+                .Map(m =>
+                {
+                    m.ToTable("UserFriends");
+                    m.MapLeftKey("UserId");
+                    m.MapRightKey("FriendId");
+                });
+
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
+
+            base.OnModelCreating(modelBuilder);
         }
 
         public IDbSet<Comment> Comments { get; set; }

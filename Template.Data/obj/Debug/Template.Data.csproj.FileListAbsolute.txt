@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Template.Data.dll.config
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Template.Data.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Template.Data.pdb
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Template.Models.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Template.Models.pdb
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\obj\Debug\Template.Data.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\obj\Debug\Template.Data.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Data\obj\Debug\Template.Data.pdb

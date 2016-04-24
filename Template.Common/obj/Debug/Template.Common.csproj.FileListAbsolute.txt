@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\TourAgency\Template.Common\bin\Debug\Template.Common.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Common\bin\Debug\Template.Common.pdb
+C:\Users\ASUS\Desktop\TourAgency\Template.Common\bin\Debug\AutoMapper.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Common\bin\Debug\AutoMapper.xml
+C:\Users\ASUS\Desktop\TourAgency\Template.Common\obj\Debug\Template.Common.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\TourAgency\Template.Common\obj\Debug\Template.Common.dll
+C:\Users\ASUS\Desktop\TourAgency\Template.Common\obj\Debug\Template.Common.pdb
