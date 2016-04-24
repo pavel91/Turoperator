@@ -14,15 +14,15 @@
         public int Id { get; set; }
 
         [Required]
-        ApplicationUser Sender { get; set; }
+        public ApplicationUser Sender { get; set; }
 
         [Required]
-        ApplicationUser Recipient { get; set; }
+        public ApplicationUser Recipient { get; set; }
 
         [Required]
-        DateTime SentTime { get; set; }
+        public DateTime SentTime { get; set; }
 
         [Required]
-        MessageStatus Status { get; set; }
+        public MessageStatus Status { get; set; }
     }
 }
