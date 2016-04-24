@@ -59,6 +59,7 @@
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Destination.cs" />
+    <Compile Include="Enums\MessageStatus.cs" />
     <Compile Include="Enums\Status.cs" />
     <Compile Include="Enums\EventType.cs" />
     <Compile Include="Event.cs" />
